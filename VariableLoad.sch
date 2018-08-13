@@ -1,0 +1,636 @@
+EESchema Schematic File Version 4
+LIBS:Koczon-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title "Variable Load"
+Date "2018-03-15"
+Rev "1"
+Comp ""
+Comment1 "Author: Miedzik Piotr"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7600 5100 1000 900 
+U 5A71CE27
+F0 "CurrentMonitor_4" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 7600 5850 60 
+F3 "SDA" B L 7600 5750 60 
+$EndSheet
+$Sheet
+S 7600 3700 1000 900 
+U 5AA71398
+F0 "CurrentMonitor_3" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 7600 4450 60 
+F3 "SDA" B L 7600 4350 60 
+$EndSheet
+$Sheet
+S 7600 2300 1000 900 
+U 5AA713A8
+F0 "CurrentMonitor_2" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 7600 3050 60 
+F3 "SDA" B L 7600 2950 60 
+$EndSheet
+$Sheet
+S 7600 950  1000 900 
+U 5AA713B8
+F0 "CurrentMonitor_1" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 7600 1700 60 
+F3 "SDA" B L 7600 1600 60 
+$EndSheet
+$Sheet
+S 9450 5100 1000 900 
+U 5AA713C8
+F0 "CurrentMonitor_5" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 9450 5850 60 
+F3 "SDA" B L 9450 5750 60 
+$EndSheet
+$Sheet
+S 9450 3700 1000 900 
+U 5AA713D8
+F0 "CurrentMonitor_8" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 9450 4450 60 
+F3 "SDA" B L 9450 4350 60 
+$EndSheet
+$Sheet
+S 9450 2300 1000 900 
+U 5AA713E8
+F0 "CurrentMonitor_7" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 9450 3050 60 
+F3 "SDA" B L 9450 2950 60 
+$EndSheet
+$Sheet
+S 9450 950  1000 900 
+U 5AA713F8
+F0 "CurrentMonitor_6" 60
+F1 "CurrentMonitor.sch" 60
+F2 "SCL" I L 9450 1700 60 
+F3 "SDA" B L 9450 1600 60 
+$EndSheet
+Wire Wire Line
+	2550 5250 2950 5250
+Wire Wire Line
+	2550 5150 2950 5150
+Wire Wire Line
+	2550 5350 2950 5350
+Wire Wire Line
+	2550 5450 2950 5450
+Wire Wire Line
+	2550 5550 2950 5550
+Wire Wire Line
+	2550 5650 2950 5650
+Wire Wire Line
+	2550 5750 2950 5750
+Wire Wire Line
+	2550 5850 2950 5850
+Wire Wire Line
+	2550 5950 2950 5950
+Wire Wire Line
+	2550 6050 2950 6050
+Wire Wire Line
+	2550 6150 2950 6150
+Wire Wire Line
+	2550 6250 2950 6250
+Wire Wire Line
+	2550 6350 2950 6350
+Wire Wire Line
+	2550 6450 2950 6450
+Wire Wire Line
+	2550 6550 2950 6550
+Wire Wire Line
+	2550 6650 2950 6650
+Text Label 2600 5150 0    60   ~ 0
+SDA0
+Text Label 2600 5250 0    60   ~ 0
+SCL0
+Text Label 2600 5350 0    60   ~ 0
+SDA1
+Text Label 2600 5450 0    60   ~ 0
+SCL1
+Text Label 2600 5550 0    60   ~ 0
+SDA2
+Text Label 2600 5650 0    60   ~ 0
+SCL2
+Text Label 2600 5750 0    60   ~ 0
+SDA3
+Text Label 2600 5850 0    60   ~ 0
+SCL3
+Text Label 2600 5950 0    60   ~ 0
+SDA4
+Text Label 2600 6050 0    60   ~ 0
+SCL4
+Text Label 2600 6150 0    60   ~ 0
+SDA5
+Text Label 2600 6250 0    60   ~ 0
+SCL5
+Text Label 2600 6350 0    60   ~ 0
+SDA6
+Text Label 2600 6450 0    60   ~ 0
+SCL6
+Text Label 2600 6550 0    60   ~ 0
+SDA7
+Text Label 2600 6650 0    60   ~ 0
+SCL7
+Wire Wire Line
+	7600 1600 7300 1600
+Wire Wire Line
+	7600 1700 7300 1700
+Text Label 7350 1600 0    60   ~ 0
+SDA0
+Text Label 7350 1700 0    60   ~ 0
+SCL0
+Wire Wire Line
+	7600 2950 7300 2950
+Wire Wire Line
+	7600 3050 7300 3050
+Wire Wire Line
+	7600 4350 7300 4350
+Wire Wire Line
+	7600 4450 7300 4450
+Wire Wire Line
+	7600 5750 7300 5750
+Wire Wire Line
+	7600 5850 7300 5850
+Text Label 7350 2950 0    60   ~ 0
+SDA1
+Text Label 7350 3050 0    60   ~ 0
+SCL1
+Text Label 7350 4350 0    60   ~ 0
+SDA2
+Text Label 7350 4450 0    60   ~ 0
+SCL2
+Text Label 7350 5750 0    60   ~ 0
+SDA3
+Text Label 7350 5850 0    60   ~ 0
+SCL3
+Wire Wire Line
+	9450 1600 9150 1600
+Wire Wire Line
+	9450 1700 9150 1700
+Wire Wire Line
+	9450 2950 9150 2950
+Wire Wire Line
+	9450 3050 9150 3050
+Wire Wire Line
+	9450 4350 9150 4350
+Wire Wire Line
+	9450 4450 9150 4450
+Wire Wire Line
+	9450 5750 9150 5750
+Wire Wire Line
+	9450 5850 9150 5850
+Text Label 9200 5750 0    60   ~ 0
+SDA7
+Text Label 9200 5850 0    60   ~ 0
+SCL7
+Text Label 9200 4350 0    60   ~ 0
+SDA6
+Text Label 9200 4450 0    60   ~ 0
+SCL6
+Text Label 9200 2950 0    60   ~ 0
+SDA5
+Text Label 9200 3050 0    60   ~ 0
+SCL5
+Text Label 9200 1700 0    60   ~ 0
+SCL4
+Text Label 9200 1600 0    60   ~ 0
+SDA4
+$Comp
+L power:GND #PWR033
+U 1 1 5AAADA72
+P 1900 7050
+F 0 "#PWR033" H 1900 6800 50  0001 C CNN
+F 1 "GND" H 1905 6877 50  0000 C CNN
+F 2 "" H 1900 7050 50  0001 C CNN
+F 3 "" H 1900 7050 50  0001 C CNN
+	1    1900 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 7050 1900 6950
+$Comp
+L power:+3.3V #PWR032
+U 1 1 5AAB36D3
+P 1900 4750
+F 0 "#PWR032" H 1900 4600 50  0001 C CNN
+F 1 "+3.3V" H 1915 4923 50  0000 C CNN
+F 2 "" H 1900 4750 50  0001 C CNN
+F 3 "" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4750 1900 4850
+Wire Wire Line
+	1250 6650 1100 6650
+Wire Wire Line
+	1250 6550 1100 6550
+Wire Wire Line
+	1250 6450 1100 6450
+$Comp
+L power:+3.3V #PWR011
+U 1 1 5AAB70CA
+P 3500 6900
+F 0 "#PWR011" H 3500 6750 50  0001 C CNN
+F 1 "+3.3V" H 3515 7073 50  0000 C CNN
+F 2 "" H 3500 6900 50  0001 C CNN
+F 3 "" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5AAB79BC
+P 3450 7550
+F 0 "#PWR012" H 3450 7300 50  0001 C CNN
+F 1 "GND" H 3455 7377 50  0000 C CNN
+F 2 "" H 3450 7550 50  0001 C CNN
+F 3 "" H 3450 7550 50  0001 C CNN
+	1    3450 7550
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6450 0    50   ~ 0
+A0
+Text Label 1150 6550 0    50   ~ 0
+A1
+Text Label 1150 6650 0    50   ~ 0
+A2
+$Comp
+L device:R R81
+U 1 1 5AABD1DE
+P 1100 4950
+F 0 "R81" H 950 5100 50  0000 L CNN
+F 1 "4k7" V 1100 4900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 4950 50  0001 C CNN
+F 3 "" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R80
+U 1 1 5AABD2B2
+P 950 4950
+F 0 "R80" H 800 5100 50  0000 L CNN
+F 1 "4k7" V 950 4850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 880 4950 50  0001 C CNN
+F 3 "" H 950 4950 50  0001 C CNN
+	1    950  4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R79
+U 1 1 5AABD352
+P 800 4950
+F 0 "R79" H 650 5100 50  0000 L CNN
+F 1 "4k7" V 800 4850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 730 4950 50  0001 C CNN
+F 3 "" H 800 4950 50  0001 C CNN
+	1    800  4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5600 1100 5600
+Wire Wire Line
+	1100 5600 1100 5100
+Wire Wire Line
+	1250 5200 800  5200
+Wire Wire Line
+	800  5200 800  5100
+Wire Wire Line
+	1250 5300 950  5300
+Wire Wire Line
+	950  5300 950  5100
+Text Label 1000 5200 0    50   ~ 0
+SDA
+Text Label 1000 5300 0    50   ~ 0
+SCL
+Wire Wire Line
+	800  4800 800  4700
+Wire Wire Line
+	800  4700 950  4700
+Wire Wire Line
+	950  4700 950  4800
+Wire Wire Line
+	950  4700 1100 4700
+Wire Wire Line
+	1100 4700 1100 4800
+Connection ~ 950  4700
+$Comp
+L power:+3.3V #PWR053
+U 1 1 5AAC3B43
+P 950 4600
+F 0 "#PWR053" H 950 4450 50  0001 C CNN
+F 1 "+3.3V" H 965 4773 50  0000 C CNN
+F 2 "" H 950 4600 50  0001 C CNN
+F 3 "" H 950 4600 50  0001 C CNN
+	1    950  4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4600 950  4700
+$Comp
+L device:C C73
+U 1 1 5AAC58AD
+P 3550 6100
+F 0 "C73" H 3665 6146 50  0000 L CNN
+F 1 "100n" H 3665 6055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3588 5950 50  0001 C CNN
+F 3 "" H 3550 6100 50  0001 C CNN
+	1    3550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR054
+U 1 1 5AAC59EF
+P 3550 5850
+F 0 "#PWR054" H 3550 5700 50  0001 C CNN
+F 1 "+3.3V" H 3565 6023 50  0000 C CNN
+F 2 "" H 3550 5850 50  0001 C CNN
+F 3 "" H 3550 5850 50  0001 C CNN
+	1    3550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 5AAC6EE6
+P 3550 6350
+F 0 "#PWR074" H 3550 6100 50  0001 C CNN
+F 1 "GND" H 3555 6177 50  0000 C CNN
+F 2 "" H 3550 6350 50  0001 C CNN
+F 3 "" H 3550 6350 50  0001 C CNN
+	1    3550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5950 3550 5850
+Wire Wire Line
+	3550 6250 3550 6350
+$Comp
+L conn:Conn_01x04_Male J9
+U 1 1 5AAAAC4A
+P 1600 1350
+F 0 "J9" H 1706 1628 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1706 1537 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 1600 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x04_Female J10
+U 1 1 5AAAAD98
+P 1600 1900
+F 0 "J10" H 1494 2185 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 1494 2094 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 1600 1900 50  0001 C CNN
+F 3 "~" H 1600 1900 50  0001 C CNN
+	1    1600 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1250 1950 1250
+Wire Wire Line
+	1800 1550 2050 1550
+Text Label 1850 1350 0    50   ~ 0
+SDA
+Text Label 1850 1450 0    50   ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR075
+U 1 1 5AAB0B70
+P 1950 1150
+F 0 "#PWR075" H 1950 1000 50  0001 C CNN
+F 1 "+3.3V" H 1965 1323 50  0000 C CNN
+F 2 "" H 1950 1150 50  0001 C CNN
+F 3 "" H 1950 1150 50  0001 C CNN
+	1    1950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR095
+U 1 1 5AAB0D9D
+P 2400 1900
+F 0 "#PWR095" H 2400 1650 50  0001 C CNN
+F 1 "GND" H 2405 1727 50  0000 C CNN
+F 2 "" H 2400 1900 50  0001 C CNN
+F 3 "" H 2400 1900 50  0001 C CNN
+	1    2400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1450 2050 1450
+Wire Wire Line
+	2050 1350 1800 1350
+Text Label 1850 2000 0    50   ~ 0
+SDA
+Text Label 1850 1900 0    50   ~ 0
+SCL
+Wire Wire Line
+	1950 1250 1950 1150
+Wire Wire Line
+	1950 1250 2150 1250
+Wire Wire Line
+	2150 1250 2150 2100
+Wire Wire Line
+	2150 2100 1800 2100
+Connection ~ 1950 1250
+Wire Wire Line
+	1800 1900 2050 1900
+Wire Wire Line
+	1800 2000 2050 2000
+Wire Wire Line
+	2400 1800 2400 1900
+Wire Wire Line
+	1800 1800 2050 1800
+Wire Wire Line
+	2050 1550 2050 1800
+Connection ~ 2050 1800
+Wire Wire Line
+	2050 1800 2400 1800
+Text Notes 800  3900 0    50   ~ 0
+PCA9548A:\n              1  1  1  0 A2 A1 A0\nDAC101C081: \n              0  0  0  1  1  0  1 (do not use 1000110)\nINA220:\n              1  0  0  0  0  0  0\n              1  0  0  0  0  0  1\n\n
+Wire Notes Line
+	550  3900 3400 3900
+Wire Notes Line style solid
+	550  3100 3400 3100
+Wire Notes Line
+	500  2500 3450 2500
+Wire Notes Line
+	3450 2500 3450 500 
+Wire Notes Line
+	3450 500  500  500 
+Wire Notes Line
+	500  500  500  2500
+Text Notes 1150 750  0    197  ~ 0
+Connectors
+Text Notes 1900 4200 0    197  ~ 0
+I2C Mux
+Wire Notes Line
+	500  3950 4550 3950
+Wire Notes Line
+	500  4250 4550 4250
+Wire Notes Line
+	4550 3950 4550 7800
+Wire Notes Line style solid
+	3450 800  500  800 
+Wire Notes Line
+	3400 2800 550  2800
+Wire Notes Line
+	550  2800 550  3900
+Wire Notes Line
+	3400 2800 3400 3900
+Text Notes 900  3050 0    197  ~ 0
+I2C Addresses
+$Comp
+L conn:GS3 J11
+U 1 1 5AAFAF15
+P 2950 7300
+F 0 "J11" H 2950 7605 50  0000 C CNN
+F 1 "GS3" H 2950 7514 50  0000 C CNN
+F 2 "Connectors:GS3" V 3038 7226 50  0001 C CNN
+F 3 "" H 2950 7300 50  0001 C CNN
+	1    2950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:GS3 J12
+U 1 1 5AAFB12F
+P 3450 7300
+F 0 "J12" H 3450 7605 50  0000 C CNN
+F 1 "GS3" H 3450 7514 50  0000 C CNN
+F 2 "Connectors:GS3" V 3538 7226 50  0001 C CNN
+F 3 "" H 3450 7300 50  0001 C CNN
+	1    3450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:GS3 J13
+U 1 1 5AAFB1B8
+P 4150 7300
+F 0 "J13" H 4150 7605 50  0000 C CNN
+F 1 "GS3" H 4150 7514 50  0000 C CNN
+F 2 "Connectors:GS3" V 4238 7226 50  0001 C CNN
+F 3 "" H 4150 7300 50  0001 C CNN
+	1    4150 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7300 3200 7300
+Wire Wire Line
+	3600 7300 3700 7300
+Wire Wire Line
+	4300 7300 4400 7300
+Text Label 3100 7300 0    50   ~ 0
+A0
+Text Label 3600 7300 0    50   ~ 0
+A1
+Text Label 4300 7300 0    50   ~ 0
+A2
+$Comp
+L project:PCA9548A U1
+U 1 1 5AA8287B
+P 1900 5900
+F 0 "U1" H 1500 4950 60  0000 C CNN
+F 1 "PCA9548A" H 1650 6800 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-24_5.3x8.2mm_Pitch0.65mm" H 1750 5950 60  0001 C CNN
+F 3 "" H 1750 5950 60  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/nxp-usa-inc/PCA9548APW118/568-10297-1-ND/4162460" H 1900 5900 50  0001 C CNN "Digikey"
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7400 2750 7400
+Wire Wire Line
+	2750 7400 2750 7500
+Wire Wire Line
+	2750 7500 3300 7500
+Wire Wire Line
+	3450 7500 3450 7550
+Wire Wire Line
+	3300 7400 3300 7500
+Connection ~ 3300 7500
+Wire Wire Line
+	3300 7500 3450 7500
+Wire Wire Line
+	3450 7500 4000 7500
+Wire Wire Line
+	4000 7500 4000 7400
+Connection ~ 3450 7500
+Wire Wire Line
+	4000 7200 4000 7050
+Wire Wire Line
+	4000 7050 3500 7050
+Wire Wire Line
+	2750 7050 2750 7200
+Wire Wire Line
+	2750 7200 2800 7200
+Wire Wire Line
+	3500 7050 3500 6900
+Connection ~ 3500 7050
+Wire Wire Line
+	3500 7050 3300 7050
+Wire Wire Line
+	3300 7200 3300 7050
+Connection ~ 3300 7050
+Wire Wire Line
+	3300 7050 2750 7050
+$Comp
+L device:TEST TP1
+U 1 1 5ABD407A
+P 4550 1400
+F 0 "TP1" H 4628 1540 50  0000 L CNN
+F 1 "TEST" H 4628 1449 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 1400 50  0001 C CNN
+F 3 "" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP2
+U 1 1 5ABD411A
+P 5050 1400
+F 0 "TP2" H 5128 1540 50  0000 L CNN
+F 1 "TEST" H 5128 1449 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5050 1400 50  0001 C CNN
+F 3 "" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 1400
+NoConn ~ 5050 1400
+$Comp
+L device:TEST TP3
+U 1 1 5ABD8CD6
+P 4600 1950
+F 0 "TP3" H 4678 2090 50  0000 L CNN
+F 1 "TEST" H 4678 1999 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4600 1950 50  0001 C CNN
+F 3 "" H 4600 1950 50  0001 C CNN
+	1    4600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP4
+U 1 1 5ABD8CDD
+P 5100 1950
+F 0 "TP4" H 5178 2090 50  0000 L CNN
+F 1 "TEST" H 5178 1999 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5100 1950 50  0001 C CNN
+F 3 "" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 1950
+NoConn ~ 5100 1950
+$EndSCHEMATC

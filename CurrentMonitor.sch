@@ -1,0 +1,1232 @@
+EESchema Schematic File Version 4
+LIBS:Koczon-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title "Measure"
+Date "2018-03-15"
+Rev "1"
+Comp ""
+Comment1 "Author: Miedzik Piotr"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L transistors:IRF540N Q4
+U 1 1 5A71D3C1
+P 6500 3650
+AR Path="/5AA713B8/5A71D3C1" Ref="Q4"  Part="1" 
+AR Path="/5A71CE27/5A71D3C1" Ref="Q1"  Part="1" 
+AR Path="/5AA71398/5A71D3C1" Ref="Q2"  Part="1" 
+AR Path="/5AA713A8/5A71D3C1" Ref="Q3"  Part="1" 
+AR Path="/5AA713C8/5A71D3C1" Ref="Q5"  Part="1" 
+AR Path="/5AA713D8/5A71D3C1" Ref="Q6"  Part="1" 
+AR Path="/5AA713E8/5A71D3C1" Ref="Q7"  Part="1" 
+AR Path="/5AA713F8/5A71D3C1" Ref="Q8"  Part="1" 
+F 0 "Q4" H 6750 3725 50  0000 L CNN
+F 1 "IRF540N" H 6750 3650 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 6750 3575 50  0001 L CIN
+F 3 "" H 6500 3650 50  0001 L CNN
+F 4 "https://www.digikey.de/product-detail/de/infineon-technologies/IRF540NPBF/IRF540NPBF-ND/811869" H 6500 3650 50  0001 C CNN "Digikey"
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:INA220 INA8
+U 1 1 5A71D444
+P 4750 4950
+AR Path="/5AA713B8/5A71D444" Ref="INA8"  Part="1" 
+AR Path="/5A71CE27/5A71D444" Ref="INA2"  Part="1" 
+AR Path="/5AA71398/5A71D444" Ref="INA4"  Part="1" 
+AR Path="/5AA713A8/5A71D444" Ref="INA6"  Part="1" 
+AR Path="/5AA713C8/5A71D444" Ref="INA10"  Part="1" 
+AR Path="/5AA713D8/5A71D444" Ref="INA12"  Part="1" 
+AR Path="/5AA713E8/5A71D444" Ref="INA14"  Part="1" 
+AR Path="/5AA713F8/5A71D444" Ref="INA16"  Part="1" 
+F 0 "INA8" H 4750 4650 60  0000 C CNN
+F 1 "INA220" H 4750 5250 60  0000 C CNN
+F 2 "ina_footprint:ina220__smd_footprint" H 4750 4650 60  0001 C CNN
+F 3 "" H 4750 4650 60  0000 C CNN
+F 4 "https://www.digikey.de/product-detail/de/texas-instruments/INA220AIDGST/296-24632-1-ND/2091818" H 4750 4950 50  0001 C CNN "Digikey"
+	1    4750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:INA220 INA7
+U 1 1 5A71D4F1
+P 2450 1600
+AR Path="/5AA713B8/5A71D4F1" Ref="INA7"  Part="1" 
+AR Path="/5A71CE27/5A71D4F1" Ref="INA1"  Part="1" 
+AR Path="/5AA71398/5A71D4F1" Ref="INA3"  Part="1" 
+AR Path="/5AA713A8/5A71D4F1" Ref="INA5"  Part="1" 
+AR Path="/5AA713C8/5A71D4F1" Ref="INA9"  Part="1" 
+AR Path="/5AA713D8/5A71D4F1" Ref="INA11"  Part="1" 
+AR Path="/5AA713E8/5A71D4F1" Ref="INA13"  Part="1" 
+AR Path="/5AA713F8/5A71D4F1" Ref="INA15"  Part="1" 
+F 0 "INA7" H 2450 1300 60  0000 C CNN
+F 1 "INA220" H 2450 1900 60  0000 C CNN
+F 2 "ina_footprint:ina220__smd_footprint" H 2450 1300 60  0001 C CNN
+F 3 "" H 2450 1300 60  0000 C CNN
+F 4 "https://www.digikey.de/product-detail/de/texas-instruments/INA220AIDGST/296-24632-1-ND/2091818" H 2450 1600 50  0001 C CNN "Digikey"
+	1    2450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L linear:LMV321 U8
+U 1 1 5A71D5D6
+P 5050 3650
+AR Path="/5AA713B8/5A71D5D6" Ref="U8"  Part="1" 
+AR Path="/5A71CE27/5A71D5D6" Ref="U2"  Part="1" 
+AR Path="/5AA71398/5A71D5D6" Ref="U4"  Part="1" 
+AR Path="/5AA713A8/5A71D5D6" Ref="U6"  Part="1" 
+AR Path="/5AA713C8/5A71D5D6" Ref="U10"  Part="1" 
+AR Path="/5AA713D8/5A71D5D6" Ref="U12"  Part="1" 
+AR Path="/5AA713E8/5A71D5D6" Ref="U14"  Part="1" 
+AR Path="/5AA713F8/5A71D5D6" Ref="U16"  Part="1" 
+F 0 "U8" H 5050 3850 50  0000 L CNN
+F 1 "LMV321" H 5050 3450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5_Handsoldering" H 5050 3650 50  0001 L CNN
+F 3 "" H 5050 3650 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/diodes-incorporated/LMV321SEG-7/LMV321SEG-7DICT-ND/2182573" H 5050 3650 50  0001 C CNN "Digikey"
+	1    5050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Screw_Terminal_01x04 J4
+U 1 1 5A71D72D
+P 8450 2700
+AR Path="/5AA713B8/5A71D72D" Ref="J4"  Part="1" 
+AR Path="/5A71CE27/5A71D72D" Ref="J1"  Part="1" 
+AR Path="/5AA71398/5A71D72D" Ref="J2"  Part="1" 
+AR Path="/5AA713A8/5A71D72D" Ref="J3"  Part="1" 
+AR Path="/5AA713C8/5A71D72D" Ref="J5"  Part="1" 
+AR Path="/5AA713D8/5A71D72D" Ref="J6"  Part="1" 
+AR Path="/5AA713E8/5A71D72D" Ref="J7"  Part="1" 
+AR Path="/5AA713F8/5A71D72D" Ref="J8"  Part="1" 
+F 0 "J4" H 8450 2900 50  0000 C CNN
+F 1 "DNP" H 8450 2400 50  0000 C CNN
+F 2 "Connectors:bornier4" H 8450 2700 50  0001 C CNN
+F 3 "" H 8450 2700 50  0001 C CNN
+	1    8450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR064
+U 1 1 5A71DD5A
+P 7550 5050
+AR Path="/5AA713B8/5A71DD5A" Ref="#PWR064"  Part="1" 
+AR Path="/5A71CE27/5A71DD5A" Ref="#PWR01"  Part="1" 
+AR Path="/5AA71398/5A71DD5A" Ref="#PWR022"  Part="1" 
+AR Path="/5AA713A8/5A71DD5A" Ref="#PWR043"  Part="1" 
+AR Path="/5AA713C8/5A71DD5A" Ref="#PWR085"  Part="1" 
+AR Path="/5AA713D8/5A71DD5A" Ref="#PWR0106"  Part="1" 
+AR Path="/5AA713E8/5A71DD5A" Ref="#PWR0127"  Part="1" 
+AR Path="/5AA713F8/5A71DD5A" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 7550 4800 50  0001 C CNN
+F 1 "GND" H 7550 4900 50  0000 C CNN
+F 2 "" H 7550 5050 50  0001 C CNN
+F 3 "" H 7550 5050 50  0001 C CNN
+	1    7550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR065
+U 1 1 5A71E4E4
+P 3050 2100
+AR Path="/5AA713B8/5A71E4E4" Ref="#PWR065"  Part="1" 
+AR Path="/5A71CE27/5A71E4E4" Ref="#PWR02"  Part="1" 
+AR Path="/5AA71398/5A71E4E4" Ref="#PWR023"  Part="1" 
+AR Path="/5AA713A8/5A71E4E4" Ref="#PWR044"  Part="1" 
+AR Path="/5AA713C8/5A71E4E4" Ref="#PWR086"  Part="1" 
+AR Path="/5AA713D8/5A71E4E4" Ref="#PWR0107"  Part="1" 
+AR Path="/5AA713E8/5A71E4E4" Ref="#PWR0128"  Part="1" 
+AR Path="/5AA713F8/5A71E4E4" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 3050 1850 50  0001 C CNN
+F 1 "GND" H 3050 1950 50  0000 C CNN
+F 2 "" H 3050 2100 50  0001 C CNN
+F 3 "" H 3050 2100 50  0001 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R33
+U 1 1 5A71E782
+P 4150 1300
+AR Path="/5AA713B8/5A71E782" Ref="R33"  Part="1" 
+AR Path="/5A71CE27/5A71E782" Ref="R6"  Part="1" 
+AR Path="/5AA71398/5A71E782" Ref="R15"  Part="1" 
+AR Path="/5AA713A8/5A71E782" Ref="R24"  Part="1" 
+AR Path="/5AA713C8/5A71E782" Ref="R42"  Part="1" 
+AR Path="/5AA713D8/5A71E782" Ref="R51"  Part="1" 
+AR Path="/5AA713E8/5A71E782" Ref="R60"  Part="1" 
+AR Path="/5AA713F8/5A71E782" Ref="R69"  Part="1" 
+F 0 "R33" V 4230 1300 50  0000 C CNN
+F 1 "Riedon CSR1206-0R002F1" V 4150 1300 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1300 50  0001 C CNN
+F 3 "" H 4150 1300 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/riedon/CSR1206-0R002F1/696-1370-1-ND/2813303" V 4150 1300 50  0001 C CNN "Digikey"
+	1    4150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R30
+U 1 1 5A71E9AD
+P 4400 4000
+AR Path="/5AA713B8/5A71E9AD" Ref="R30"  Part="1" 
+AR Path="/5A71CE27/5A71E9AD" Ref="R3"  Part="1" 
+AR Path="/5AA71398/5A71E9AD" Ref="R12"  Part="1" 
+AR Path="/5AA713A8/5A71E9AD" Ref="R21"  Part="1" 
+AR Path="/5AA713C8/5A71E9AD" Ref="R39"  Part="1" 
+AR Path="/5AA713D8/5A71E9AD" Ref="R48"  Part="1" 
+AR Path="/5AA713E8/5A71E9AD" Ref="R57"  Part="1" 
+AR Path="/5AA713F8/5A71E9AD" Ref="R66"  Part="1" 
+F 0 "R30" V 4480 4000 50  0000 C CNN
+F 1 "4k7" V 4400 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4330 4000 50  0001 C CNN
+F 3 "" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R31
+U 1 1 5A71EB94
+P 4800 4150
+AR Path="/5AA713B8/5A71EB94" Ref="R31"  Part="1" 
+AR Path="/5A71CE27/5A71EB94" Ref="R4"  Part="1" 
+AR Path="/5AA71398/5A71EB94" Ref="R13"  Part="1" 
+AR Path="/5AA713A8/5A71EB94" Ref="R22"  Part="1" 
+AR Path="/5AA713C8/5A71EB94" Ref="R40"  Part="1" 
+AR Path="/5AA713D8/5A71EB94" Ref="R49"  Part="1" 
+AR Path="/5AA713E8/5A71EB94" Ref="R58"  Part="1" 
+AR Path="/5AA713F8/5A71EB94" Ref="R67"  Part="1" 
+F 0 "R31" V 4880 4150 50  0000 C CNN
+F 1 "100" V 4800 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 4150 50  0001 C CNN
+F 3 "" H 4800 4150 50  0001 C CNN
+	1    4800 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C32
+U 1 1 5A71EC57
+P 5200 4150
+AR Path="/5AA713B8/5A71EC57" Ref="C32"  Part="1" 
+AR Path="/5A71CE27/5A71EC57" Ref="C5"  Part="1" 
+AR Path="/5AA71398/5A71EC57" Ref="C14"  Part="1" 
+AR Path="/5AA713A8/5A71EC57" Ref="C23"  Part="1" 
+AR Path="/5AA713C8/5A71EC57" Ref="C41"  Part="1" 
+AR Path="/5AA713D8/5A71EC57" Ref="C50"  Part="1" 
+AR Path="/5AA713E8/5A71EC57" Ref="C59"  Part="1" 
+AR Path="/5AA713F8/5A71EC57" Ref="C68"  Part="1" 
+F 0 "C32" H 5225 4250 50  0000 L CNN
+F 1 "100n" H 5225 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5238 4000 50  0001 C CNN
+F 3 "" H 5200 4150 50  0001 C CNN
+	1    5200 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R32
+U 1 1 5A71EDD2
+P 5750 3650
+AR Path="/5AA713B8/5A71EDD2" Ref="R32"  Part="1" 
+AR Path="/5A71CE27/5A71EDD2" Ref="R5"  Part="1" 
+AR Path="/5AA71398/5A71EDD2" Ref="R14"  Part="1" 
+AR Path="/5AA713A8/5A71EDD2" Ref="R23"  Part="1" 
+AR Path="/5AA713C8/5A71EDD2" Ref="R41"  Part="1" 
+AR Path="/5AA713D8/5A71EDD2" Ref="R50"  Part="1" 
+AR Path="/5AA713E8/5A71EDD2" Ref="R59"  Part="1" 
+AR Path="/5AA713F8/5A71EDD2" Ref="R68"  Part="1" 
+F 0 "R32" V 5830 3650 50  0000 C CNN
+F 1 "20" V 5750 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5680 3650 50  0001 C CNN
+F 3 "" H 5750 3650 50  0001 C CNN
+	1    5750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C30
+U 1 1 5A71F39C
+P 4950 5700
+AR Path="/5AA713B8/5A71F39C" Ref="C30"  Part="1" 
+AR Path="/5A71CE27/5A71F39C" Ref="C3"  Part="1" 
+AR Path="/5AA71398/5A71F39C" Ref="C12"  Part="1" 
+AR Path="/5AA713A8/5A71F39C" Ref="C21"  Part="1" 
+AR Path="/5AA713C8/5A71F39C" Ref="C39"  Part="1" 
+AR Path="/5AA713D8/5A71F39C" Ref="C48"  Part="1" 
+AR Path="/5AA713E8/5A71F39C" Ref="C57"  Part="1" 
+AR Path="/5AA713F8/5A71F39C" Ref="C66"  Part="1" 
+F 0 "C30" H 4975 5800 50  0000 L CNN
+F 1 "100n" H 4975 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5550 50  0001 C CNN
+F 3 "" H 4950 5700 50  0001 C CNN
+	1    4950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C33
+U 1 1 5A71F4D5
+P 3300 1800
+AR Path="/5AA713B8/5A71F4D5" Ref="C33"  Part="1" 
+AR Path="/5A71CE27/5A71F4D5" Ref="C6"  Part="1" 
+AR Path="/5AA71398/5A71F4D5" Ref="C15"  Part="1" 
+AR Path="/5AA713A8/5A71F4D5" Ref="C24"  Part="1" 
+AR Path="/5AA713C8/5A71F4D5" Ref="C42"  Part="1" 
+AR Path="/5AA713D8/5A71F4D5" Ref="C51"  Part="1" 
+AR Path="/5AA713E8/5A71F4D5" Ref="C60"  Part="1" 
+AR Path="/5AA713F8/5A71F4D5" Ref="C69"  Part="1" 
+F 0 "C33" H 3325 1900 50  0000 L CNN
+F 1 "100n" H 3325 1700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 1650 50  0001 C CNN
+F 3 "" H 3300 1800 50  0001 C CNN
+	1    3300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR066
+U 1 1 5A72103E
+P 3000 800
+AR Path="/5AA713B8/5A72103E" Ref="#PWR066"  Part="1" 
+AR Path="/5A71CE27/5A72103E" Ref="#PWR03"  Part="1" 
+AR Path="/5AA71398/5A72103E" Ref="#PWR024"  Part="1" 
+AR Path="/5AA713A8/5A72103E" Ref="#PWR045"  Part="1" 
+AR Path="/5AA713C8/5A72103E" Ref="#PWR087"  Part="1" 
+AR Path="/5AA713D8/5A72103E" Ref="#PWR0108"  Part="1" 
+AR Path="/5AA713E8/5A72103E" Ref="#PWR0129"  Part="1" 
+AR Path="/5AA713F8/5A72103E" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 3000 650 50  0001 C CNN
+F 1 "+3.3V" H 3000 940 50  0000 C CNN
+F 2 "" H 3000 800 50  0001 C CNN
+F 3 "" H 3000 800 50  0001 C CNN
+	1    3000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR067
+U 1 1 5A721170
+P 4950 3200
+AR Path="/5AA713B8/5A721170" Ref="#PWR067"  Part="1" 
+AR Path="/5A71CE27/5A721170" Ref="#PWR04"  Part="1" 
+AR Path="/5AA71398/5A721170" Ref="#PWR025"  Part="1" 
+AR Path="/5AA713A8/5A721170" Ref="#PWR046"  Part="1" 
+AR Path="/5AA713C8/5A721170" Ref="#PWR088"  Part="1" 
+AR Path="/5AA713D8/5A721170" Ref="#PWR0109"  Part="1" 
+AR Path="/5AA713E8/5A721170" Ref="#PWR0130"  Part="1" 
+AR Path="/5AA713F8/5A721170" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 4950 3050 50  0001 C CNN
+F 1 "+3.3V" H 4950 3340 50  0000 C CNN
+F 2 "" H 4950 3200 50  0001 C CNN
+F 3 "" H 4950 3200 50  0001 C CNN
+	1    4950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 5A7227B3
+P 4950 4400
+AR Path="/5AA713B8/5A7227B3" Ref="#PWR068"  Part="1" 
+AR Path="/5A71CE27/5A7227B3" Ref="#PWR05"  Part="1" 
+AR Path="/5AA71398/5A7227B3" Ref="#PWR026"  Part="1" 
+AR Path="/5AA713A8/5A7227B3" Ref="#PWR047"  Part="1" 
+AR Path="/5AA713C8/5A7227B3" Ref="#PWR089"  Part="1" 
+AR Path="/5AA713D8/5A7227B3" Ref="#PWR0110"  Part="1" 
+AR Path="/5AA713E8/5A7227B3" Ref="#PWR0131"  Part="1" 
+AR Path="/5AA713F8/5A7227B3" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 4950 4150 50  0001 C CNN
+F 1 "GND" H 4950 4250 50  0000 C CNN
+F 2 "" H 4950 4400 50  0001 C CNN
+F 3 "" H 4950 4400 50  0001 C CNN
+	1    4950 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 8300 2150 0    60   ~ 0
+Terminal pins\n1 - 12V Input\n2 - To DC/DC converter input\n3 - From DC/DC converter output\n4 - GND
+$Comp
+L project:DAC081C081_(SOT) DAC4
+U 1 1 5A72F79E
+P 1900 6900
+AR Path="/5AA713B8/5A72F79E" Ref="DAC4"  Part="1" 
+AR Path="/5A71CE27/5A72F79E" Ref="DAC1"  Part="1" 
+AR Path="/5AA71398/5A72F79E" Ref="DAC2"  Part="1" 
+AR Path="/5AA713A8/5A72F79E" Ref="DAC3"  Part="1" 
+AR Path="/5AA713C8/5A72F79E" Ref="DAC5"  Part="1" 
+AR Path="/5AA713D8/5A72F79E" Ref="DAC6"  Part="1" 
+AR Path="/5AA713E8/5A72F79E" Ref="DAC7"  Part="1" 
+AR Path="/5AA713F8/5A72F79E" Ref="DAC8"  Part="1" 
+F 0 "DAC4" H 1900 6600 60  0000 C CNN
+F 1 "DAC081C081_(SOT)" H 1950 7200 60  0000 C CNN
+F 2 "ina_footprint:DAC081C081" H 1900 6900 60  0001 C CNN
+F 3 "" H 1900 6900 60  0000 C CNN
+F 4 "https://www.digikey.de/product-detail/de/texas-instruments/DAC081C081CIMK-NOPB/DAC081C081CIMK-NOPBCT-ND/1993955" H 1900 6900 50  0001 C CNN "Digikey"
+	1    1900 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR069
+U 1 1 5A72FFD8
+P 2650 6550
+AR Path="/5AA713B8/5A72FFD8" Ref="#PWR069"  Part="1" 
+AR Path="/5A71CE27/5A72FFD8" Ref="#PWR06"  Part="1" 
+AR Path="/5AA71398/5A72FFD8" Ref="#PWR027"  Part="1" 
+AR Path="/5AA713A8/5A72FFD8" Ref="#PWR048"  Part="1" 
+AR Path="/5AA713C8/5A72FFD8" Ref="#PWR090"  Part="1" 
+AR Path="/5AA713D8/5A72FFD8" Ref="#PWR0111"  Part="1" 
+AR Path="/5AA713E8/5A72FFD8" Ref="#PWR0132"  Part="1" 
+AR Path="/5AA713F8/5A72FFD8" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 2650 6400 50  0001 C CNN
+F 1 "+3.3V" H 2650 6690 50  0000 C CNN
+F 2 "" H 2650 6550 50  0001 C CNN
+F 3 "" H 2650 6550 50  0001 C CNN
+	1    2650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR070
+U 1 1 5A730024
+P 2650 7350
+AR Path="/5AA713B8/5A730024" Ref="#PWR070"  Part="1" 
+AR Path="/5A71CE27/5A730024" Ref="#PWR07"  Part="1" 
+AR Path="/5AA71398/5A730024" Ref="#PWR028"  Part="1" 
+AR Path="/5AA713A8/5A730024" Ref="#PWR049"  Part="1" 
+AR Path="/5AA713C8/5A730024" Ref="#PWR091"  Part="1" 
+AR Path="/5AA713D8/5A730024" Ref="#PWR0112"  Part="1" 
+AR Path="/5AA713E8/5A730024" Ref="#PWR0133"  Part="1" 
+AR Path="/5AA713F8/5A730024" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 2650 7100 50  0001 C CNN
+F 1 "GND" H 2650 7200 50  0000 C CNN
+F 2 "" H 2650 7350 50  0001 C CNN
+F 3 "" H 2650 7350 50  0001 C CNN
+	1    2650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 5A730134
+P 1200 7300
+AR Path="/5AA713B8/5A730134" Ref="#PWR071"  Part="1" 
+AR Path="/5A71CE27/5A730134" Ref="#PWR08"  Part="1" 
+AR Path="/5AA71398/5A730134" Ref="#PWR029"  Part="1" 
+AR Path="/5AA713A8/5A730134" Ref="#PWR050"  Part="1" 
+AR Path="/5AA713C8/5A730134" Ref="#PWR092"  Part="1" 
+AR Path="/5AA713D8/5A730134" Ref="#PWR0113"  Part="1" 
+AR Path="/5AA713E8/5A730134" Ref="#PWR0134"  Part="1" 
+AR Path="/5AA713F8/5A730134" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 1200 7050 50  0001 C CNN
+F 1 "GND" H 1200 7150 50  0000 C CNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "" H 1200 7300 50  0001 C CNN
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+Text Label 3400 6750 0    60   ~ 0
+Vset
+Text Label 4300 3550 0    60   ~ 0
+Vset
+$Comp
+L device:C C29
+U 1 1 5A7307C8
+P 3000 7050
+AR Path="/5AA713B8/5A7307C8" Ref="C29"  Part="1" 
+AR Path="/5A71CE27/5A7307C8" Ref="C2"  Part="1" 
+AR Path="/5AA71398/5A7307C8" Ref="C11"  Part="1" 
+AR Path="/5AA713A8/5A7307C8" Ref="C20"  Part="1" 
+AR Path="/5AA713C8/5A7307C8" Ref="C38"  Part="1" 
+AR Path="/5AA713D8/5A7307C8" Ref="C47"  Part="1" 
+AR Path="/5AA713E8/5A7307C8" Ref="C56"  Part="1" 
+AR Path="/5AA713F8/5A7307C8" Ref="C65"  Part="1" 
+F 0 "C29" H 3025 7150 50  0000 L CNN
+F 1 "100n" H 3025 6950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 6900 50  0001 C CNN
+F 3 "" H 3000 7050 50  0001 C CNN
+	1    3000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C31
+U 1 1 5A7308D1
+P 3350 7050
+AR Path="/5AA713B8/5A7308D1" Ref="C31"  Part="1" 
+AR Path="/5A71CE27/5A7308D1" Ref="C4"  Part="1" 
+AR Path="/5AA71398/5A7308D1" Ref="C13"  Part="1" 
+AR Path="/5AA713A8/5A7308D1" Ref="C22"  Part="1" 
+AR Path="/5AA713C8/5A7308D1" Ref="C40"  Part="1" 
+AR Path="/5AA713D8/5A7308D1" Ref="C49"  Part="1" 
+AR Path="/5AA713E8/5A7308D1" Ref="C58"  Part="1" 
+AR Path="/5AA713F8/5A7308D1" Ref="C67"  Part="1" 
+F 0 "C31" H 3375 7150 50  0000 L CNN
+F 1 "100n" H 3375 6950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3388 6900 50  0001 C CNN
+F 3 "" H 3350 7050 50  0001 C CNN
+	1    3350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C28
+U 1 1 5A73152A
+P 3800 3400
+AR Path="/5AA713B8/5A73152A" Ref="C28"  Part="1" 
+AR Path="/5A71CE27/5A73152A" Ref="C1"  Part="1" 
+AR Path="/5AA71398/5A73152A" Ref="C10"  Part="1" 
+AR Path="/5AA713A8/5A73152A" Ref="C19"  Part="1" 
+AR Path="/5AA713C8/5A73152A" Ref="C37"  Part="1" 
+AR Path="/5AA713D8/5A73152A" Ref="C46"  Part="1" 
+AR Path="/5AA713E8/5A73152A" Ref="C55"  Part="1" 
+AR Path="/5AA713F8/5A73152A" Ref="C64"  Part="1" 
+F 0 "C28" H 3825 3500 50  0000 L CNN
+F 1 "100n" H 3825 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3838 3250 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR072
+U 1 1 5A731583
+P 3800 3100
+AR Path="/5AA713B8/5A731583" Ref="#PWR072"  Part="1" 
+AR Path="/5A71CE27/5A731583" Ref="#PWR09"  Part="1" 
+AR Path="/5AA71398/5A731583" Ref="#PWR030"  Part="1" 
+AR Path="/5AA713A8/5A731583" Ref="#PWR051"  Part="1" 
+AR Path="/5AA713C8/5A731583" Ref="#PWR093"  Part="1" 
+AR Path="/5AA713D8/5A731583" Ref="#PWR0114"  Part="1" 
+AR Path="/5AA713E8/5A731583" Ref="#PWR0135"  Part="1" 
+AR Path="/5AA713F8/5A731583" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 3800 2950 50  0001 C CNN
+F 1 "+3.3V" H 3800 3240 50  0000 C CNN
+F 2 "" H 3800 3100 50  0001 C CNN
+F 3 "" H 3800 3100 50  0001 C CNN
+	1    3800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 5A7315B9
+P 3800 3750
+AR Path="/5AA713B8/5A7315B9" Ref="#PWR073"  Part="1" 
+AR Path="/5A71CE27/5A7315B9" Ref="#PWR010"  Part="1" 
+AR Path="/5AA71398/5A7315B9" Ref="#PWR031"  Part="1" 
+AR Path="/5AA713A8/5A7315B9" Ref="#PWR052"  Part="1" 
+AR Path="/5AA713C8/5A7315B9" Ref="#PWR094"  Part="1" 
+AR Path="/5AA713D8/5A7315B9" Ref="#PWR0115"  Part="1" 
+AR Path="/5AA713E8/5A7315B9" Ref="#PWR0136"  Part="1" 
+AR Path="/5AA713F8/5A7315B9" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 3800 3500 50  0001 C CNN
+F 1 "GND" H 3800 3600 50  0000 C CNN
+F 2 "" H 3800 3750 50  0001 C CNN
+F 3 "" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR076
+U 1 1 5A733961
+P 4100 5400
+AR Path="/5AA713B8/5A733961" Ref="#PWR076"  Part="1" 
+AR Path="/5A71CE27/5A733961" Ref="#PWR013"  Part="1" 
+AR Path="/5AA71398/5A733961" Ref="#PWR034"  Part="1" 
+AR Path="/5AA713A8/5A733961" Ref="#PWR055"  Part="1" 
+AR Path="/5AA713C8/5A733961" Ref="#PWR097"  Part="1" 
+AR Path="/5AA713D8/5A733961" Ref="#PWR0118"  Part="1" 
+AR Path="/5AA713E8/5A733961" Ref="#PWR0139"  Part="1" 
+AR Path="/5AA713F8/5A733961" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 4100 5150 50  0001 C CNN
+F 1 "GND" H 4100 5250 50  0000 C CNN
+F 2 "" H 4100 5400 50  0001 C CNN
+F 3 "" H 4100 5400 50  0001 C CNN
+	1    4100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 5A733AE9
+P 1500 2000
+AR Path="/5AA713B8/5A733AE9" Ref="#PWR077"  Part="1" 
+AR Path="/5A71CE27/5A733AE9" Ref="#PWR014"  Part="1" 
+AR Path="/5AA71398/5A733AE9" Ref="#PWR035"  Part="1" 
+AR Path="/5AA713A8/5A733AE9" Ref="#PWR056"  Part="1" 
+AR Path="/5AA713C8/5A733AE9" Ref="#PWR098"  Part="1" 
+AR Path="/5AA713D8/5A733AE9" Ref="#PWR0119"  Part="1" 
+AR Path="/5AA713E8/5A733AE9" Ref="#PWR0140"  Part="1" 
+AR Path="/5AA713F8/5A733AE9" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 1500 1750 50  0001 C CNN
+F 1 "GND" H 1500 1850 50  0000 C CNN
+F 2 "" H 1500 2000 50  0001 C CNN
+F 3 "" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+Text Label 3000 5050 0    60   ~ 0
+SDA
+Text Label 3000 5150 0    60   ~ 0
+SCL
+$Comp
+L project:INA250 U9
+U 1 1 5A742C4B
+P 6350 4750
+AR Path="/5AA713B8/5A742C4B" Ref="U9"  Part="1" 
+AR Path="/5A71CE27/5A742C4B" Ref="U3"  Part="1" 
+AR Path="/5AA71398/5A742C4B" Ref="U5"  Part="1" 
+AR Path="/5AA713A8/5A742C4B" Ref="U7"  Part="1" 
+AR Path="/5AA713C8/5A742C4B" Ref="U11"  Part="1" 
+AR Path="/5AA713D8/5A742C4B" Ref="U13"  Part="1" 
+AR Path="/5AA713E8/5A742C4B" Ref="U15"  Part="1" 
+AR Path="/5AA713F8/5A742C4B" Ref="U17"  Part="1" 
+F 0 "U9" H 6350 4250 60  0000 C CNN
+F 1 "INA250A2PWR" H 6350 5250 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 6350 4750 60  0001 C CNN
+F 3 "" H 6350 4750 60  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/texas-instruments/INA250A2PWR/296-47326-1-ND/7688336" H 6350 4750 50  0001 C CNN "Digikey"
+	1    6350 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R R35
+U 1 1 5A743D02
+P 6400 5550
+AR Path="/5AA713B8/5A743D02" Ref="R35"  Part="1" 
+AR Path="/5A71CE27/5A743D02" Ref="R8"  Part="1" 
+AR Path="/5AA71398/5A743D02" Ref="R17"  Part="1" 
+AR Path="/5AA713A8/5A743D02" Ref="R26"  Part="1" 
+AR Path="/5AA713C8/5A743D02" Ref="R44"  Part="1" 
+AR Path="/5AA713D8/5A743D02" Ref="R53"  Part="1" 
+AR Path="/5AA713E8/5A743D02" Ref="R62"  Part="1" 
+AR Path="/5AA713F8/5A743D02" Ref="R71"  Part="1" 
+F 0 "R35" V 6480 5550 50  0000 C CNN
+F 1 "0" V 6400 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6330 5550 50  0001 C CNN
+F 3 "" H 6400 5550 50  0001 C CNN
+	1    6400 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:R R34
+U 1 1 5A743DE3
+P 6400 3950
+AR Path="/5AA713B8/5A743DE3" Ref="R34"  Part="1" 
+AR Path="/5A71CE27/5A743DE3" Ref="R7"  Part="1" 
+AR Path="/5AA71398/5A743DE3" Ref="R16"  Part="1" 
+AR Path="/5AA713A8/5A743DE3" Ref="R25"  Part="1" 
+AR Path="/5AA713C8/5A743DE3" Ref="R43"  Part="1" 
+AR Path="/5AA713D8/5A743DE3" Ref="R52"  Part="1" 
+AR Path="/5AA713E8/5A743DE3" Ref="R61"  Part="1" 
+AR Path="/5AA713F8/5A743DE3" Ref="R70"  Part="1" 
+F 0 "R34" V 6480 3950 50  0000 C CNN
+F 1 "0" V 6400 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6330 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:C C34
+U 1 1 5A744112
+P 6200 3950
+AR Path="/5AA713B8/5A744112" Ref="C34"  Part="1" 
+AR Path="/5A71CE27/5A744112" Ref="C7"  Part="1" 
+AR Path="/5AA71398/5A744112" Ref="C16"  Part="1" 
+AR Path="/5AA713A8/5A744112" Ref="C25"  Part="1" 
+AR Path="/5AA713C8/5A744112" Ref="C43"  Part="1" 
+AR Path="/5AA713D8/5A744112" Ref="C52"  Part="1" 
+AR Path="/5AA713E8/5A744112" Ref="C61"  Part="1" 
+AR Path="/5AA713F8/5A744112" Ref="C70"  Part="1" 
+F 0 "C34" H 6225 4050 50  0000 L CNN
+F 1 "DNP" H 6225 3850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 3800 50  0001 C CNN
+F 3 "" H 6200 3950 50  0001 C CNN
+	1    6200 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:C C35
+U 1 1 5A744299
+P 6200 5550
+AR Path="/5AA713B8/5A744299" Ref="C35"  Part="1" 
+AR Path="/5A71CE27/5A744299" Ref="C8"  Part="1" 
+AR Path="/5AA71398/5A744299" Ref="C17"  Part="1" 
+AR Path="/5AA713A8/5A744299" Ref="C26"  Part="1" 
+AR Path="/5AA713C8/5A744299" Ref="C44"  Part="1" 
+AR Path="/5AA713D8/5A744299" Ref="C53"  Part="1" 
+AR Path="/5AA713E8/5A744299" Ref="C62"  Part="1" 
+AR Path="/5AA713F8/5A744299" Ref="C71"  Part="1" 
+F 0 "C35" H 6225 5650 50  0000 L CNN
+F 1 "DNP" H 6225 5450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 5400 50  0001 C CNN
+F 3 "" H 6200 5550 50  0001 C CNN
+	1    6200 5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1500 3050 1500
+Wire Wire Line
+	6600 3300 6600 3450
+Wire Wire Line
+	2900 1600 3050 1600
+Wire Wire Line
+	3050 1600 3050 1500
+Connection ~ 3050 1500
+Wire Wire Line
+	2900 1700 3050 1700
+Wire Wire Line
+	3050 1700 3050 2100
+Wire Wire Line
+	2950 5050 3400 5050
+Wire Wire Line
+	950  1700 2000 1700
+Wire Wire Line
+	950  1800 2000 1800
+Wire Wire Line
+	2900 1400 3600 1400
+Wire Wire Line
+	3600 1400 3600 1050
+Wire Wire Line
+	3600 1050 4150 1050
+Connection ~ 4150 1050
+Wire Wire Line
+	5350 3650 5500 3650
+Wire Wire Line
+	5350 4150 5500 4150
+Wire Wire Line
+	5500 4150 5500 3650
+Connection ~ 5500 3650
+Wire Wire Line
+	4400 3750 4600 3750
+Wire Wire Line
+	4400 3850 4400 3750
+Wire Wire Line
+	4650 4150 4600 4150
+Wire Wire Line
+	4600 4150 4600 3750
+Connection ~ 4600 3750
+Wire Wire Line
+	4950 4150 5050 4150
+Wire Wire Line
+	4750 3550 4300 3550
+Wire Wire Line
+	2900 1800 3000 1800
+Wire Wire Line
+	3000 800  3000 1800
+Wire Wire Line
+	3150 1700 3150 1650
+Wire Wire Line
+	3150 1650 3300 1650
+Connection ~ 3050 1700
+Wire Wire Line
+	3000 1950 3300 1950
+Connection ~ 3000 1800
+Wire Wire Line
+	4950 3350 4950 3200
+Wire Wire Line
+	4950 3950 4950 4400
+Wire Wire Line
+	950  7050 1400 7050
+Wire Wire Line
+	1400 6900 950  6900
+Wire Wire Line
+	2400 6900 2650 6900
+Wire Wire Line
+	2650 6550 2650 6900
+Wire Wire Line
+	2400 7050 2650 7050
+Wire Wire Line
+	2650 7050 2650 7250
+Wire Wire Line
+	1200 7300 1200 6750
+Wire Wire Line
+	1200 6750 1400 6750
+Wire Wire Line
+	2400 6750 3350 6750
+Connection ~ 2650 6900
+Wire Wire Line
+	2650 7250 3000 7250
+Wire Wire Line
+	3000 7250 3000 7200
+Connection ~ 2650 7250
+Wire Wire Line
+	3350 7250 3350 7200
+Connection ~ 3000 7250
+Wire Wire Line
+	3350 6750 3350 6900
+Connection ~ 3350 6750
+Wire Wire Line
+	3800 3750 3800 3550
+Wire Wire Line
+	3800 3250 3800 3100
+Wire Wire Line
+	4100 4750 4100 5400
+Wire Wire Line
+	4300 4750 4100 4750
+Wire Wire Line
+	2000 1400 1500 1400
+Wire Wire Line
+	1500 1500 2000 1500
+Wire Wire Line
+	4150 1450 4150 1500
+Connection ~ 4150 1500
+Wire Wire Line
+	4150 1050 4150 1150
+Wire Wire Line
+	4400 4150 4400 4200
+Wire Wire Line
+	6400 3750 6400 3800
+Wire Wire Line
+	6200 3750 6300 3750
+Wire Wire Line
+	6200 3750 6200 3800
+Wire Wire Line
+	6300 3750 6300 4300
+Connection ~ 6300 3750
+Wire Wire Line
+	6200 4100 6200 4250
+Wire Wire Line
+	6400 4100 6400 4300
+Wire Wire Line
+	6700 4100 6700 4300
+Wire Wire Line
+	6500 4100 6600 4100
+Wire Wire Line
+	6500 4100 6500 4300
+Wire Wire Line
+	6600 3850 6600 4100
+Connection ~ 6600 4100
+Wire Wire Line
+	6500 5200 6500 5400
+Wire Wire Line
+	6500 5400 6600 5400
+Wire Wire Line
+	6700 5400 6700 5200
+Wire Wire Line
+	6600 5200 6600 5400
+Connection ~ 6600 5400
+Wire Wire Line
+	6400 5400 6400 5200
+Wire Wire Line
+	6200 5200 6200 5300
+Wire Wire Line
+	6300 5750 6300 5200
+Wire Wire Line
+	6000 5750 6200 5750
+Wire Wire Line
+	6200 5750 6200 5700
+Wire Wire Line
+	6400 5750 6400 5700
+Connection ~ 6300 5750
+Wire Wire Line
+	6000 5300 6100 5300
+Wire Wire Line
+	6000 5300 6000 5200
+Connection ~ 6200 5300
+Wire Wire Line
+	6000 4300 6000 4200
+Wire Wire Line
+	6000 4200 4400 4200
+$Comp
+L power:+3.3V #PWR078
+U 1 1 5A745C66
+P 6100 4150
+AR Path="/5AA713B8/5A745C66" Ref="#PWR078"  Part="1" 
+AR Path="/5A71CE27/5A745C66" Ref="#PWR015"  Part="1" 
+AR Path="/5AA71398/5A745C66" Ref="#PWR036"  Part="1" 
+AR Path="/5AA713A8/5A745C66" Ref="#PWR057"  Part="1" 
+AR Path="/5AA713C8/5A745C66" Ref="#PWR099"  Part="1" 
+AR Path="/5AA713D8/5A745C66" Ref="#PWR0120"  Part="1" 
+AR Path="/5AA713E8/5A745C66" Ref="#PWR0141"  Part="1" 
+AR Path="/5AA713F8/5A745C66" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 6100 4000 50  0001 C CNN
+F 1 "+3.3V" H 6100 4290 50  0000 C CNN
+F 2 "" H 6100 4150 50  0001 C CNN
+F 3 "" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4150 6100 4300
+Wire Wire Line
+	6200 4250 7300 4250
+Wire Wire Line
+	7300 4250 7300 5300
+Connection ~ 6200 4250
+Connection ~ 7300 5300
+$Comp
+L power:GND #PWR079
+U 1 1 5A745EA6
+P 7300 5750
+AR Path="/5AA713B8/5A745EA6" Ref="#PWR079"  Part="1" 
+AR Path="/5A71CE27/5A745EA6" Ref="#PWR016"  Part="1" 
+AR Path="/5AA71398/5A745EA6" Ref="#PWR037"  Part="1" 
+AR Path="/5AA713A8/5A745EA6" Ref="#PWR058"  Part="1" 
+AR Path="/5AA713C8/5A745EA6" Ref="#PWR0100"  Part="1" 
+AR Path="/5AA713D8/5A745EA6" Ref="#PWR0121"  Part="1" 
+AR Path="/5AA713E8/5A745EA6" Ref="#PWR0142"  Part="1" 
+AR Path="/5AA713F8/5A745EA6" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 7300 5500 50  0001 C CNN
+F 1 "GND" H 7300 5600 50  0000 C CNN
+F 2 "" H 7300 5750 50  0001 C CNN
+F 3 "" H 7300 5750 50  0001 C CNN
+	1    7300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4850 5400 4850
+Connection ~ 6200 5750
+Wire Wire Line
+	5200 4950 5400 4950
+Wire Wire Line
+	5400 5050 5400 5900
+Wire Wire Line
+	5400 5050 5200 5050
+Wire Wire Line
+	6100 5200 6100 5300
+Connection ~ 6100 5300
+Text Label 5250 4950 0    60   ~ 0
+Vbus
+Text Label 7850 2700 0    60   ~ 0
+Vbus
+Text Label 6400 3750 2    60   ~ 0
+Vin+
+Text Label 5250 4750 0    60   ~ 0
+Vin+
+Text Label 6000 5750 0    60   ~ 0
+Vin-
+Text Label 5250 4850 0    60   ~ 0
+Vin-
+$Comp
+L power:+3.3V #PWR080
+U 1 1 5A747607
+P 4950 5450
+AR Path="/5AA713B8/5A747607" Ref="#PWR080"  Part="1" 
+AR Path="/5A71CE27/5A747607" Ref="#PWR017"  Part="1" 
+AR Path="/5AA71398/5A747607" Ref="#PWR038"  Part="1" 
+AR Path="/5AA713A8/5A747607" Ref="#PWR059"  Part="1" 
+AR Path="/5AA713C8/5A747607" Ref="#PWR0101"  Part="1" 
+AR Path="/5AA713D8/5A747607" Ref="#PWR0122"  Part="1" 
+AR Path="/5AA713E8/5A747607" Ref="#PWR0143"  Part="1" 
+AR Path="/5AA713F8/5A747607" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 4950 5300 50  0001 C CNN
+F 1 "+3.3V" H 4950 5590 50  0000 C CNN
+F 2 "" H 4950 5450 50  0001 C CNN
+F 3 "" H 4950 5450 50  0001 C CNN
+	1    4950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR081
+U 1 1 5A747677
+P 4950 5950
+AR Path="/5AA713B8/5A747677" Ref="#PWR081"  Part="1" 
+AR Path="/5A71CE27/5A747677" Ref="#PWR018"  Part="1" 
+AR Path="/5AA71398/5A747677" Ref="#PWR039"  Part="1" 
+AR Path="/5AA713A8/5A747677" Ref="#PWR060"  Part="1" 
+AR Path="/5AA713C8/5A747677" Ref="#PWR0102"  Part="1" 
+AR Path="/5AA713D8/5A747677" Ref="#PWR0123"  Part="1" 
+AR Path="/5AA713E8/5A747677" Ref="#PWR0144"  Part="1" 
+AR Path="/5AA713F8/5A747677" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 4950 5700 50  0001 C CNN
+F 1 "GND" H 4950 5800 50  0000 C CNN
+F 2 "" H 4950 5950 50  0001 C CNN
+F 3 "" H 4950 5950 50  0001 C CNN
+	1    4950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5850 4950 5900
+Wire Wire Line
+	4950 5450 4950 5500
+Wire Wire Line
+	4950 5500 5250 5500
+Wire Wire Line
+	5250 5500 5250 5150
+Wire Wire Line
+	5250 5150 5200 5150
+Connection ~ 4950 5500
+Wire Wire Line
+	5400 5900 4950 5900
+Connection ~ 4950 5900
+Wire Wire Line
+	8250 2600 7700 2600
+Text Label 7850 2600 0    60   ~ 0
+Agnd
+Text Label 6600 5700 1    60   ~ 0
+Agnd
+Wire Wire Line
+	8250 2700 7700 2700
+Text Label 4300 1050 0    60   ~ 0
+V12in+
+Text Label 4300 1500 0    60   ~ 0
+V12in-
+Wire Wire Line
+	8250 2800 7700 2800
+Wire Wire Line
+	8250 2900 7700 2900
+Text Label 7850 2800 0    60   ~ 0
+V12in+
+Text Label 7850 2900 0    60   ~ 0
+V12in-
+Text Label 8450 2700 1    60   ~ 0
+In+
+Text Label 6600 4100 1    60   ~ 0
+Load
+Connection ~ 1500 1500
+$Comp
+L power:+3.3V #PWR082
+U 1 1 5A74CC50
+P 4200 4600
+AR Path="/5AA713B8/5A74CC50" Ref="#PWR082"  Part="1" 
+AR Path="/5A71CE27/5A74CC50" Ref="#PWR019"  Part="1" 
+AR Path="/5AA71398/5A74CC50" Ref="#PWR040"  Part="1" 
+AR Path="/5AA713A8/5A74CC50" Ref="#PWR061"  Part="1" 
+AR Path="/5AA713C8/5A74CC50" Ref="#PWR0103"  Part="1" 
+AR Path="/5AA713D8/5A74CC50" Ref="#PWR0124"  Part="1" 
+AR Path="/5AA713E8/5A74CC50" Ref="#PWR0145"  Part="1" 
+AR Path="/5AA713F8/5A74CC50" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 4200 4450 50  0001 C CNN
+F 1 "+3.3V" H 4200 4740 50  0000 C CNN
+F 2 "" H 4200 4600 50  0001 C CNN
+F 3 "" H 4200 4600 50  0001 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4850 4200 4850
+Wire Wire Line
+	4200 4850 4200 4600
+Wire Wire Line
+	1250 5050 1850 5050
+Wire Wire Line
+	1250 5150 1850 5150
+Text Label 1500 5150 0    60   ~ 0
+SDA
+Text Label 1500 5050 0    60   ~ 0
+SCL
+$Comp
+L device:C C36
+U 1 1 5A74E6B9
+P 7550 4850
+AR Path="/5AA713B8/5A74E6B9" Ref="C36"  Part="1" 
+AR Path="/5A71CE27/5A74E6B9" Ref="C9"  Part="1" 
+AR Path="/5AA71398/5A74E6B9" Ref="C18"  Part="1" 
+AR Path="/5AA713A8/5A74E6B9" Ref="C27"  Part="1" 
+AR Path="/5AA713C8/5A74E6B9" Ref="C45"  Part="1" 
+AR Path="/5AA713D8/5A74E6B9" Ref="C54"  Part="1" 
+AR Path="/5AA713E8/5A74E6B9" Ref="C63"  Part="1" 
+AR Path="/5AA713F8/5A74E6B9" Ref="C72"  Part="1" 
+F 0 "C36" H 7575 4950 50  0000 L CNN
+F 1 "100n" H 7575 4750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7588 4700 50  0001 C CNN
+F 3 "" H 7550 4850 50  0001 C CNN
+	1    7550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR083
+U 1 1 5A74EB7C
+P 7550 4650
+AR Path="/5AA713B8/5A74EB7C" Ref="#PWR083"  Part="1" 
+AR Path="/5A71CE27/5A74EB7C" Ref="#PWR020"  Part="1" 
+AR Path="/5AA71398/5A74EB7C" Ref="#PWR041"  Part="1" 
+AR Path="/5AA713A8/5A74EB7C" Ref="#PWR062"  Part="1" 
+AR Path="/5AA713C8/5A74EB7C" Ref="#PWR0104"  Part="1" 
+AR Path="/5AA713D8/5A74EB7C" Ref="#PWR0125"  Part="1" 
+AR Path="/5AA713E8/5A74EB7C" Ref="#PWR0146"  Part="1" 
+AR Path="/5AA713F8/5A74EB7C" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 7550 4500 50  0001 C CNN
+F 1 "+3.3V" H 7550 4790 50  0000 C CNN
+F 2 "" H 7550 4650 50  0001 C CNN
+F 3 "" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4700 7550 4650
+Wire Wire Line
+	7550 5050 7550 5000
+$Comp
+L device:R R36
+U 1 1 5A74F21F
+P 8950 4750
+AR Path="/5AA713B8/5A74F21F" Ref="R36"  Part="1" 
+AR Path="/5A71CE27/5A74F21F" Ref="R9"  Part="1" 
+AR Path="/5AA71398/5A74F21F" Ref="R18"  Part="1" 
+AR Path="/5AA713A8/5A74F21F" Ref="R27"  Part="1" 
+AR Path="/5AA713C8/5A74F21F" Ref="R45"  Part="1" 
+AR Path="/5AA713D8/5A74F21F" Ref="R54"  Part="1" 
+AR Path="/5AA713E8/5A74F21F" Ref="R63"  Part="1" 
+AR Path="/5AA713F8/5A74F21F" Ref="R72"  Part="1" 
+F 0 "R36" V 9030 4750 50  0000 C CNN
+F 1 "0" V 8950 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8880 4750 50  0001 C CNN
+F 3 "" H 8950 4750 50  0001 C CNN
+	1    8950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4900 8950 5000
+Wire Wire Line
+	8950 5000 9100 5000
+Wire Wire Line
+	8950 4600 8950 4500
+Wire Wire Line
+	8950 4500 9100 4500
+Text Label 9000 4500 0    60   ~ 0
+Agnd
+Text Label 9000 5000 0    60   ~ 0
+GND
+$Comp
+L device:R R28
+U 1 1 5A74FA8E
+P 3400 4800
+AR Path="/5AA713B8/5A74FA8E" Ref="R28"  Part="1" 
+AR Path="/5A71CE27/5A74FA8E" Ref="R1"  Part="1" 
+AR Path="/5AA71398/5A74FA8E" Ref="R10"  Part="1" 
+AR Path="/5AA713A8/5A74FA8E" Ref="R19"  Part="1" 
+AR Path="/5AA713C8/5A74FA8E" Ref="R37"  Part="1" 
+AR Path="/5AA713D8/5A74FA8E" Ref="R46"  Part="1" 
+AR Path="/5AA713E8/5A74FA8E" Ref="R55"  Part="1" 
+AR Path="/5AA713F8/5A74FA8E" Ref="R64"  Part="1" 
+F 0 "R28" V 3480 4800 50  0000 C CNN
+F 1 "4k7" V 3400 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 4800 50  0001 C CNN
+F 3 "" H 3400 4800 50  0001 C CNN
+	1    3400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R29
+U 1 1 5A74FC3F
+P 3600 4800
+AR Path="/5AA713B8/5A74FC3F" Ref="R29"  Part="1" 
+AR Path="/5A71CE27/5A74FC3F" Ref="R2"  Part="1" 
+AR Path="/5AA71398/5A74FC3F" Ref="R11"  Part="1" 
+AR Path="/5AA713A8/5A74FC3F" Ref="R20"  Part="1" 
+AR Path="/5AA713C8/5A74FC3F" Ref="R38"  Part="1" 
+AR Path="/5AA713D8/5A74FC3F" Ref="R47"  Part="1" 
+AR Path="/5AA713E8/5A74FC3F" Ref="R56"  Part="1" 
+AR Path="/5AA713F8/5A74FC3F" Ref="R65"  Part="1" 
+F 0 "R29" V 3680 4800 50  0000 C CNN
+F 1 "4k7" V 3600 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3530 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4650 3400 4550
+Wire Wire Line
+	3400 4550 3500 4550
+Wire Wire Line
+	3600 4550 3600 4650
+Wire Wire Line
+	3500 4550 3500 4450
+Connection ~ 3500 4550
+$Comp
+L power:+3.3V #PWR084
+U 1 1 5A750115
+P 3500 4450
+AR Path="/5AA713B8/5A750115" Ref="#PWR084"  Part="1" 
+AR Path="/5A71CE27/5A750115" Ref="#PWR021"  Part="1" 
+AR Path="/5AA71398/5A750115" Ref="#PWR042"  Part="1" 
+AR Path="/5AA713A8/5A750115" Ref="#PWR063"  Part="1" 
+AR Path="/5AA713C8/5A750115" Ref="#PWR0105"  Part="1" 
+AR Path="/5AA713D8/5A750115" Ref="#PWR0126"  Part="1" 
+AR Path="/5AA713E8/5A750115" Ref="#PWR0147"  Part="1" 
+AR Path="/5AA713F8/5A750115" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 3500 4300 50  0001 C CNN
+F 1 "+3.3V" H 3500 4590 50  0000 C CNN
+F 2 "" H 3500 4450 50  0001 C CNN
+F 3 "" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 5050 0    60   Input ~ 0
+SCL
+Text HLabel 1250 5150 0    60   BiDi ~ 0
+SDA
+Wire Wire Line
+	6600 3300 7000 3300
+Text Label 6750 3300 0    60   ~ 0
+Vbus
+Text Label 1000 1700 0    60   ~ 0
+SDA
+Text Label 1000 1800 0    60   ~ 0
+SCL
+Wire Wire Line
+	1500 1400 1500 1500
+Text Label 1000 6900 0    60   ~ 0
+SCL
+Text Label 1000 7050 0    60   ~ 0
+SDA
+Wire Wire Line
+	3600 4950 3600 5150
+Connection ~ 3600 5150
+Wire Wire Line
+	3400 4950 3400 5050
+Connection ~ 3400 5050
+Wire Wire Line
+	2950 5150 3600 5150
+Wire Wire Line
+	3050 1500 4150 1500
+Wire Wire Line
+	4150 1050 4600 1050
+Wire Wire Line
+	5500 3650 5600 3650
+Wire Wire Line
+	4600 3750 4750 3750
+Wire Wire Line
+	3050 1700 3150 1700
+Wire Wire Line
+	3000 1800 3000 1950
+Wire Wire Line
+	2650 6900 3000 6900
+Wire Wire Line
+	2650 6900 2650 6950
+Wire Wire Line
+	2650 7250 2650 7350
+Wire Wire Line
+	3000 7250 3350 7250
+Wire Wire Line
+	3350 6750 3600 6750
+Wire Wire Line
+	4150 1500 4600 1500
+Wire Wire Line
+	6300 3750 6400 3750
+Wire Wire Line
+	6600 4100 6700 4100
+Wire Wire Line
+	6600 4100 6600 4300
+Wire Wire Line
+	6600 5400 6700 5400
+Wire Wire Line
+	6600 5400 6600 5750
+Wire Wire Line
+	6300 5750 6400 5750
+Wire Wire Line
+	6200 5300 6200 5400
+Wire Wire Line
+	6200 5300 7300 5300
+Wire Wire Line
+	6200 4250 6200 4300
+Wire Wire Line
+	7300 5300 7300 5750
+Wire Wire Line
+	6200 5750 6300 5750
+Wire Wire Line
+	6100 5300 6200 5300
+Wire Wire Line
+	4950 5500 4950 5550
+Wire Wire Line
+	4950 5900 4950 5950
+Wire Wire Line
+	1500 1500 1500 2000
+Wire Wire Line
+	3500 4550 3600 4550
+Wire Wire Line
+	3600 5150 4300 5150
+Wire Wire Line
+	3400 5050 4300 5050
+Wire Wire Line
+	5200 4750 5400 4750
+Wire Wire Line
+	5900 3650 6300 3650
+$EndSCHEMATC
