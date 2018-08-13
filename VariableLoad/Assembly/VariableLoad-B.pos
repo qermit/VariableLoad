@@ -1,0 +1,59 @@
+### Module positions - created on 06/26/18 14:49:47 ###
+### Printed by Pcbnew version kicad (5.0.0-rc2-dev-206-ge4d512a29)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                     Package                             PosX       PosY       Rot  Side
+C73       100n                    C_0603_HandSoldering             50.2700    36.5400  270.0000  bottom
+R1        4k7                     R_0603_HandSoldering             12.8700    21.4400    0.0000  bottom
+R2        4k7                     R_0603_HandSoldering             12.8700    24.6400    0.0000  bottom
+R6        Riedon CSR1206-0R002F1  R_1206_HandSoldering              4.1700    11.9400  180.0000  bottom
+R7        0                       R_0603_HandSoldering             15.7000     2.4131  270.0000  bottom
+R8        0                       R_0603_HandSoldering              2.4000     2.4131   90.0000  bottom
+R10       4k7                     R_0603_HandSoldering             37.8700    21.4400    0.0000  bottom
+R11       4k7                     R_0603_HandSoldering             37.8700    24.6400    0.0000  bottom
+R15       Riedon CSR1206-0R002F1  R_1206_HandSoldering             29.1700    11.9400  180.0000  bottom
+R16       0                       R_0603_HandSoldering             40.7000     2.4131  270.0000  bottom
+R17       0                       R_0603_HandSoldering             27.4000     2.4131   90.0000  bottom
+R19       4k7                     R_0603_HandSoldering             55.5500    24.7131  180.0000  bottom
+R20       4k7                     R_0603_HandSoldering             55.5500    21.6131  180.0000  bottom
+R24       Riedon CSR1206-0R002F1  R_1206_HandSoldering             54.1700    11.9400  180.0000  bottom
+R25       0                       R_0603_HandSoldering             65.7000     2.4131  270.0000  bottom
+R26       0                       R_0603_HandSoldering             52.4000     2.4131   90.0000  bottom
+R28       4k7                     R_0603_HandSoldering             80.6000    24.6631  180.0000  bottom
+R29       4k7                     R_0603_HandSoldering             80.5500    21.6631  180.0000  bottom
+R33       Riedon CSR1206-0R002F1  R_1206_HandSoldering             79.1700    11.9400  180.0000  bottom
+R34       0                       R_0603_HandSoldering             90.7000     2.4131  270.0000  bottom
+R35       0                       R_0603_HandSoldering             77.4000     2.4131   90.0000  bottom
+R37       4k7                     R_0603_HandSoldering             77.1321    46.3862  180.0000  bottom
+R38       4k7                     R_0603_HandSoldering             77.1321    43.1862  180.0000  bottom
+R42       Riedon CSR1206-0R002F1  R_1206_HandSoldering             85.8321    55.8862    0.0000  bottom
+R43       0                       R_0603_HandSoldering             74.3021    65.4131   90.0000  bottom
+R44       0                       R_0603_HandSoldering             87.6021    65.4131  270.0000  bottom
+R46       4k7                     R_0603_HandSoldering             52.1321    46.3862  180.0000  bottom
+R47       4k7                     R_0603_HandSoldering             52.1321    43.1862  180.0000  bottom
+R51       Riedon CSR1206-0R002F1  R_1206_HandSoldering             60.8321    55.8862    0.0000  bottom
+R52       0                       R_0603_HandSoldering             49.3021    65.4131   90.0000  bottom
+R53       0                       R_0603_HandSoldering             62.6021    65.4131  270.0000  bottom
+R55       4k7                     R_0603_HandSoldering             34.4000    43.2131    0.0000  bottom
+R56       4k7                     R_0603_HandSoldering             34.4000    46.2131    0.0000  bottom
+R60       Riedon CSR1206-0R002F1  R_1206_HandSoldering             35.8321    55.8862    0.0000  bottom
+R61       0                       R_0603_HandSoldering             24.3021    65.4131   90.0000  bottom
+R62       0                       R_0603_HandSoldering             37.6021    65.4131  270.0000  bottom
+R64       4k7                     R_0603_HandSoldering              9.4000    43.1631    0.0000  bottom
+R65       4k7                     R_0603_HandSoldering              9.4000    46.2131    0.0000  bottom
+R69       Riedon CSR1206-0R002F1  R_1206_HandSoldering             10.8321    55.8862    0.0000  bottom
+R70       0                       R_0603_HandSoldering             -0.6979    65.4131   90.0000  bottom
+R71       0                       R_0603_HandSoldering             12.6021    65.4131  270.0000  bottom
+R79       4k7                     R_0603_HandSoldering             63.5700    32.4400  180.0000  bottom
+R80       4k7                     R_0603_HandSoldering             63.4700    35.9400  180.0000  bottom
+R81       4k7                     R_0603_HandSoldering             51.5700    28.7400  180.0000  bottom
+U1        PCA9548A                SSOP-24_5.3x8.2mm_Pitch0.65mm    45.0000    34.0131   90.0000  bottom
+U3        INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm      9.0500     2.1131    0.0000  bottom
+U5        INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     34.0500     2.1131    0.0000  bottom
+U7        INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     59.0500     2.1131    0.0000  bottom
+U9        INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     84.0500     2.1131    0.0000  bottom
+U11       INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     80.9521    65.7131  180.0000  bottom
+U13       INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     55.9521    65.7131  180.0000  bottom
+U15       INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm     30.9521    65.7131  180.0000  bottom
+U17       INA250A2PWR             TSSOP-16_4.4x5mm_Pitch0.65mm      5.9521    65.7131  180.0000  bottom
+## End
